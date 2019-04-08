@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf86241d-5c64-45e7-81c9-5b60dd3c2db5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/templates/security/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/src/Controller/SecurityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/src/Form/RegistrationType.php" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/src/Form/RegistrationType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/templates/security/registration.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/templates/security/registration.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/skeleton/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/annotations/" />
@@ -96,11 +83,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/skeleton/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/create.html.twig">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skeleton/src/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="221">
               <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding>
                 <element signature="e#30#62#0#PHP" expanded="true" />
@@ -125,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/SecurityController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
+            <state relative-caret-position="884">
               <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#35#81#0#PHP" expanded="true" />
@@ -277,14 +264,14 @@
               <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog2" type="462c0819:PsiDirectoryNode" />
               <item name="skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog2" type="462c0819:PsiDirectoryNode" />
               <item name="skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="diagramme" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
@@ -343,6 +330,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/skeleton/public/diagramme" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -368,24 +356,27 @@
       <option name="presentableId" value="Default" />
       <updated>1554708632777</updated>
       <workItem from="1554708634043" duration="12900000" />
+      <workItem from="1554726935435" duration="325000" />
     </task>
+    <task id="LOCAL-00001" summary="connect/deco">
+      <created>1554726994392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554726994392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12900000" />
+    <option name="totallyTimeSpent" value="13225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -393,15 +384,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="PlantUML" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="connect/deco" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect/deco" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/skeleton/src/Migrations/Version20190408002007.php">
@@ -447,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/create.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="84" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton/templates/security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -468,9 +462,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="e#34#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/create.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="84" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton/src/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="221">
           <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
             <element signature="e#30#62#0#PHP" expanded="true" />
@@ -480,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
+        <state relative-caret-position="884">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#35#81#0#PHP" expanded="true" />
@@ -495,13 +506,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="e#34#58#0#PHP" expanded="true" />
-          </folding>
+    <entry file="uml://PHP/\App\Controller\BlogController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\App\Controller\BlogController</OriginalElement>
+          <nodes>
+            <node x="" y="">\App\Entity\Comment</node>
+            <node x="" y="">\Symfony\Contracts\Service\ServiceSubscriberInterface</node>
+            <node x="" y="">\App\Form\RegistrationType</node>
+            <node x="" y="">\App\Entity\Category</node>
+            <node x="" y="">\App\Entity\User</node>
+            <node x="" y="">\App\Controller\SecurityController</node>
+            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\ControllerTrait</node>
+            <node x="" y="">\App\Controller\BlogController</node>
+            <node x="" y="">\App\Entity\Article</node>
+            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\AbstractController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="433.0" y="162.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/public/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://PHP/\App\Controller\SecurityController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\App\Controller\SecurityController</OriginalElement>
+          <nodes>
+            <node x="" y="">\App\Entity\Comment</node>
+            <node x="" y="">\Symfony\Contracts\Service\ServiceSubscriberInterface</node>
+            <node x="" y="">\App\Form\RegistrationType</node>
+            <node x="" y="">\App\Entity\Category</node>
+            <node x="" y="">\App\Entity\User</node>
+            <node x="" y="">\App\Controller\SecurityController</node>
+            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\ControllerTrait</node>
+            <node x="" y="">\App\Controller\BlogController</node>
+            <node x="" y="">\App\Entity\Article</node>
+            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\AbstractController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="183.5" y="162.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
