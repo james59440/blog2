@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf86241d-5c64-45e7-81c9-5b60dd3c2db5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton/templates/security/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/src/Form/RegistrationType.php" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/src/Form/RegistrationType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/templates/security/registration.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/templates/security/registration.html.twig" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/composer/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/annotations/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/cache/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/collections/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/common/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/data-fixtures/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/dbal/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/doctrine-bundle/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/doctrine-cache-bundle/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/doctrine-fixtures-bundle/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/doctrine-migrations-bundle/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/event-manager/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/inflector/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/instantiator/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/lexer/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/migrations/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/orm/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/persistence/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/reflection/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/fzaninotto/faker/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/jdorn/sql-formatter/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/nikic/php-parser/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/ocramius/package-versions/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/ocramius/proxy-manager/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/psr/cache/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/psr/container/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/psr/log/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/psr/simple-cache/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/sensio/framework-extra-bundle/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/cache/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/config/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/console/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/contracts/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/debug/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/dependency-injection/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/doctrine-bridge/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/dotenv/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/event-dispatcher/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/filesystem/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/finder/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/flex/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/form/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/framework-bundle/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/http-foundation/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/http-kernel/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/inflector/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/intl/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/maker-bundle/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/options-resolver/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/orm-pack/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/polyfill-intl-icu/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/polyfill-mbstring/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/polyfill-php72/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/process/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/profiler-pack/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/property-access/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/routing/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/security-bundle/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/security-core/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/security-csrf/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/security-guard/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/security-http/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/stopwatch/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/twig-bridge/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/twig-bundle/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/var-dumper/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/var-exporter/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/web-profiler-bundle/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/web-server-bundle/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/symfony/yaml/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/twig/twig/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/zendframework/zend-code/" />
+    <ignored path="$PROJECT_DIR$/skeleton/vendor/zendframework/zend-eventmanager/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/skeleton/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/create.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="84" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeleton/src/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding>
+                <element signature="e#30#62#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/SecurityController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="e#35#81#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeleton/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skeleton/config/packages/security.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/skeleton/src/DataFixtures/ArticleFixtures.php" />
+        <option value="$PROJECT_DIR$/skeleton/src/Form/RegistrationType.php" />
+        <option value="$PROJECT_DIR$/skeleton/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/skeleton/templates/security/login.html.twig" />
+        <option value="$PROJECT_DIR$/skeleton/templates/security/registration.html.twig" />
+        <option value="$PROJECT_DIR$/skeleton/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/skeleton/src/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/skeleton/config/packages/security.yaml" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/composer" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/asset" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="607" />
+    <option name="y" value="10" />
+    <option name="width" value="1049" />
+    <option name="height" value="866" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog2" type="462c0819:PsiDirectoryNode" />
+              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf86241d-5c64-45e7-81c9-5b60dd3c2db5" name="Default Changelist" comment="" />
+      <created>1554708632777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554708632777</updated>
+      <workItem from="1554708634043" duration="12900000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12900000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/skeleton/src/Migrations/Version20190408002007.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="e#64#96#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/src/DataFixtures/AppFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/src/DataFixtures/ArticleFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#37#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/src/Form/RegistrationType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/create.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="84" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/templates/security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/templates/security/registration.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#30#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#35#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="e#34#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

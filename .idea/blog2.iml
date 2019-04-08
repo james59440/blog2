@@ -33,6 +33,7 @@
       <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/psr/simple-cache" />
       <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/sensio/framework-extra-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/symfony/asset" />
       <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/symfony/cache" />
       <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/symfony/config" />
       <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/symfony/console" />
@@ -69,6 +70,7 @@
       <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/symfony/stopwatch" />
       <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/symfony/twig-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/symfony/twig-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/symfony/validator" />
       <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/symfony/var-exporter" />
       <excludeFolder url="file://$MODULE_DIR$/skeleton/vendor/symfony/web-profiler-bundle" />

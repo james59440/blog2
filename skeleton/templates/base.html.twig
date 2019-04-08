@@ -16,17 +16,33 @@
 
     <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('security_registration') }}">Inscription</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('security_login') }}">Connexion</a>
+            </li>
+
             <li class="nav-item ">
                 <a class="nav-link" href="{{ path('blog') }}">Articles </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ path('blog_create') }}">Crée un article</a>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('security_logout') }}">Déconnexion</a>
+            </li>
+
         </ul>
     </div>
 </nav>
 
 <div class="container">
+
+
 
     {% block body %}{% endblock %}
 
