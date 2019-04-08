@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf86241d-5c64-45e7-81c9-5b60dd3c2db5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/public/diagramme/blog uml/Connexion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/public/diagramme/blog uml/accueil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/public/diagramme/blog uml/article la suite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/public/diagramme/blog uml/article.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/public/diagramme/blog uml/creation article.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/public/diagramme/blog uml/inscription.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/skeleton/vendor/composer/" />
@@ -92,6 +85,20 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/skeleton/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -320,7 +327,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554708632777</updated>
       <workItem from="1554708634043" duration="12900000" />
-      <workItem from="1554726935435" duration="4632000" />
+      <workItem from="1554726935435" duration="5234000" />
     </task>
     <task id="LOCAL-00001" summary="connect/deco">
       <created>1554726994392</created>
@@ -343,11 +350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554730728155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="diagramme">
+      <created>1554732070279</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554732070279</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17532000" />
+    <option name="totallyTimeSpent" value="18134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -382,7 +396,8 @@
     <MESSAGE value="connect/deco" />
     <MESSAGE value="diagramme classes" />
     <MESSAGE value="diagramme classes + commentaire que si log" />
-    <option name="LAST_COMMIT_MESSAGE" value="diagramme classes + commentaire que si log" />
+    <MESSAGE value="diagramme" />
+    <option name="LAST_COMMIT_MESSAGE" value="diagramme" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/skeleton/src/Migrations/Version20190408002007.php">
