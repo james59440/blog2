@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf86241d-5c64-45e7-81c9-5b60dd3c2db5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/skeleton/src/Form/CommentType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton/public/diagramme/blog uml/Connexion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton/public/diagramme/blog uml/accueil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton/public/diagramme/blog uml/article la suite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton/public/diagramme/blog uml/article.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton/public/diagramme/blog uml/creation article.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton/public/diagramme/blog uml/inscription.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/src/Controller/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/templates/blog/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/templates/blog/show.html.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/skeleton/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/annotations/" />
@@ -95,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/create.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="84" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="84" />
+            <state relative-caret-position="425">
+              <caret line="25" column="18" lean-forward="true" selection-start-line="24" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -267,34 +270,14 @@
               <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog2" type="462c0819:PsiDirectoryNode" />
               <item name="skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog2" type="462c0819:PsiDirectoryNode" />
               <item name="skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog2" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog2" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog2" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="diagramme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,7 +320,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554708632777</updated>
       <workItem from="1554708634043" duration="12900000" />
-      <workItem from="1554726935435" duration="3619000" />
+      <workItem from="1554726935435" duration="4632000" />
     </task>
     <task id="LOCAL-00001" summary="connect/deco">
       <created>1554726994392</created>
@@ -353,11 +336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554727306501</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="diagramme classes + commentaire que si log">
+      <created>1554730728155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554730728155</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16519000" />
+    <option name="totallyTimeSpent" value="17532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -382,7 +372,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32969153" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +381,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="connect/deco" />
     <MESSAGE value="diagramme classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="diagramme classes" />
+    <MESSAGE value="diagramme classes + commentaire que si log" />
+    <option name="LAST_COMMIT_MESSAGE" value="diagramme classes + commentaire que si log" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/skeleton/src/Migrations/Version20190408002007.php">
@@ -468,34 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://PHP/\App\Controller\BlogController">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>PHP</ID>
-          <OriginalElement>\App\Controller\BlogController</OriginalElement>
-          <nodes>
-            <node x="" y="">\App\Entity\Comment</node>
-            <node x="" y="">\Symfony\Contracts\Service\ServiceSubscriberInterface</node>
-            <node x="" y="">\App\Form\RegistrationType</node>
-            <node x="" y="">\App\Entity\Category</node>
-            <node x="" y="">\App\Entity\User</node>
-            <node x="" y="">\App\Controller\SecurityController</node>
-            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\ControllerTrait</node>
-            <node x="" y="">\App\Controller\BlogController</node>
-            <node x="" y="">\App\Entity\Article</node>
-            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\AbstractController</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="433.0" y="162.5" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton/public/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -565,10 +528,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/public/diagramme/BlogController.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="uml://PHP/\App\Controller\BlogController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\App\Controller\BlogController</OriginalElement>
+          <nodes>
+            <node x="" y="">\App\Entity\Comment</node>
+            <node x="" y="">\Symfony\Contracts\Service\ServiceSubscriberInterface</node>
+            <node x="" y="">\App\Form\RegistrationType</node>
+            <node x="" y="">\App\Entity\Category</node>
+            <node x="" y="">\App\Form\CommentType</node>
+            <node x="" y="">\App\Controller\SecurityController</node>
+            <node x="" y="">\App\Entity\User</node>
+            <node x="" y="">\App\Controller\BlogController</node>
+            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\ControllerTrait</node>
+            <node x="" y="">\App\Entity\Article</node>
+            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\AbstractController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="183.5" y="198.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/public/diagramme/blog uml/accueil.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/create.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="84" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="84" />
+        <state relative-caret-position="425">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="24" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
