@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf86241d-5c64-45e7-81c9-5b60dd3c2db5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/skeleton/templates/blog/createProduit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/templates/blog/event.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/templates/blog/produits.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/src/Controller/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/config/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skeleton/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/templates/blog/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/templates/blog/home.html.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/skeleton/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/annotations/" />
@@ -112,13 +112,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/create.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state>
+              <caret column="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/home.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="782">
@@ -128,22 +128,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/produits.html.twig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/createProduit.html.twig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="142" column="61" selection-start-line="142" selection-start-column="61" selection-end-line="142" selection-end-column="61" />
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding>
                 <element signature="e#34#58#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/FullCalendarListener.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#116#158#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,6 +185,9 @@
         <option value="$PROJECT_DIR$/skeleton/src/Controller/BlogController.php" />
         <option value="$PROJECT_DIR$/skeleton/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/skeleton/templates/blog/home.html.twig" />
+        <option value="$PROJECT_DIR$/skeleton/config/services.yaml" />
+        <option value="$PROJECT_DIR$/skeleton/src/Controller/FullCalendarListener.php" />
+        <option value="$PROJECT_DIR$/skeleton/templates/blog/event.html.twig" />
       </list>
     </option>
   </component>
@@ -266,6 +271,7 @@
       <path value="$PROJECT_DIR$/skeleton/vendor/symfony/profiler-pack" />
       <path value="$PROJECT_DIR$/skeleton/vendor/symfony/validator" />
       <path value="$PROJECT_DIR$/skeleton/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/toiba/fullcalendar-bundle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -295,6 +301,13 @@
               <item name="Site_Anais" type="462c0819:PsiDirectoryNode" />
               <item name="skeleton" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Site_Anais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Site_Anais" type="462c0819:PsiDirectoryNode" />
+              <item name="skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Site_Anais" type="b2602c69:ProjectViewProjectNode" />
@@ -351,7 +364,7 @@
       <updated>1554708632777</updated>
       <workItem from="1554708634043" duration="12900000" />
       <workItem from="1554726935435" duration="5234000" />
-      <workItem from="1555514187737" duration="3457000" />
+      <workItem from="1555514187737" duration="5164000" />
     </task>
     <task id="LOCAL-00001" summary="connect/deco">
       <created>1554726994392</created>
@@ -381,11 +394,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554732070279</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="template et lien rajouter">
+      <created>1555518637666</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555518637666</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21591000" />
+    <option name="totallyTimeSpent" value="23298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -421,7 +441,8 @@
     <MESSAGE value="diagramme classes" />
     <MESSAGE value="diagramme classes + commentaire que si log" />
     <MESSAGE value="diagramme" />
-    <option name="LAST_COMMIT_MESSAGE" value="diagramme" />
+    <MESSAGE value="template et lien rajouter" />
+    <option name="LAST_COMMIT_MESSAGE" value="template et lien rajouter" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/skeleton/src/Migrations/Version20190408002007.php">
@@ -585,25 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/event.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/produits.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/createProduit.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="142" column="61" selection-start-line="142" selection-start-column="61" selection-end-line="142" selection-end-column="61" />
-          <folding>
-            <element signature="e#34#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -611,17 +613,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/create.html.twig">
+    <entry file="file://$PROJECT_DIR$/skeleton/config/bundles.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/vendor/toiba/fullcalendar-bundle/FullCalendarBundle.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/vendor/toiba/fullcalendar-bundle/Event/CalendarEvent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="-723" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/produits.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/createProduit.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/home.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/create.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/templates/blog/event.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding>
+            <element signature="e#34#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/FullCalendarListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#116#158#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
