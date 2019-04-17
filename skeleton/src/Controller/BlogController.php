@@ -121,6 +121,28 @@ class BlogController extends AbstractController
         ]);
     }
 
+    /**
+     * @Route("/blog/event", name="blog_event")
+     */
+    public function calen()
+    {
+        return $this->render('blog/event.html.twig');
+    }
+
+    /**
+     * @Route("/blog/produits", name="blog_produits")
+     */
+    public function produits(){
+        return $this->render('blog/produits.html.twig');
+    }
+
+    /**
+     * @Route("/blog/createProduit", name="blog_createProduit")
+     */
+    public function CreateProduit(){
+        return $this->render('blog/createProduit.html.twig');
+    }
+
 
 
 }

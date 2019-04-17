@@ -9,7 +9,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="{{ path('home') }}">Mon Blog</a>
+    <a class="navbar-brand" href="{{ path('home') }}">Accueil</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,8 +24,21 @@
             <li class="nav-item ">
                 <a class="nav-link" href="{{ path('blog') }}">Articles </a>
             </li>
+
             <li class="nav-item">
-                <a class="nav-link" href="{{ path('blog_create') }}">Crée un article</a>
+                <a class="nav-link" href="{{ path('blog_create') }}">Ajouter un Article</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('blog_event') }}">Calendrier</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('blog_produits') }}">Produits</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('blog_createProduit') }}">Ajouter un produit</a>
             </li>
 
             {% if not app.user %}
