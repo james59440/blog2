@@ -24,28 +24,28 @@ class BlogController extends AbstractController
 
     public function home()
     {
-        return $this ->render('blog/home.html.twig');
+        return $this ->render('site/home.html.twig');
     }
 
 
 
     /**
-     * @Route("/blog", name="blog")
+     * @Route("/site", name="site")
      */
     public function index()
     {
         $repo = $this->getDoctrine()->getRepository(Article::class);
         $articles = $repo ->findAll();
 
-        return $this->render('blog/index.html.twig', [
+        return $this->render('site/index.html.twig', [
             'controller_name' => 'BlogController',
             'articles' => $articles
         ]);
     }
 
     /**
-     * @Route("/blog/new", name="blog_create")
-     * @Route("/blog/{id}/edit", name="blog_edit")
+     * @Route("/site/new", name="blog_create")
+     * @Route("/site/{id}/edit", name="blog_edit")
      */
     public function form(Article $article = null ,Request $request, ObjectManager $manager)
     {
@@ -85,7 +85,7 @@ class BlogController extends AbstractController
             ]);
         }
 
-        return $this->render('blog/create.html.twig', [
+        return $this->render('site/create.html.twig', [
             'formArticle' => $form->createView(),
             'editMode' =>$article->getId() !== null
         ]);
@@ -95,7 +95,7 @@ class BlogController extends AbstractController
 
 
     /**
-     * @Route("/blog{id}", name="blog_show")
+     * @Route("/site{id}", name="blog_show")
      */
     public function show(Article $article, Request $request, ObjectManager $manager)
     {
@@ -115,32 +115,32 @@ class BlogController extends AbstractController
         }
 
 
-        return $this ->render('blog/show.html.twig', [
+        return $this ->render('site/show.html.twig', [
             'article' => $article,
             'commentForm' => $form->createView()
         ]);
     }
 
     /**
-     * @Route("/blog/event", name="blog_event")
+     * @Route("/site/event", name="blog_event")
      */
     public function calen()
     {
-        return $this->render('blog/event.html.twig');
+        return $this->render('site/event.html.twig');
     }
 
     /**
-     * @Route("/blog/produits", name="blog_produits")
+     * @Route("/site/produits", name="blog_produits")
      */
     public function produits(){
-        return $this->render('blog/produits.html.twig');
+        return $this->render('site/produits.html.twig');
     }
 
     /**
-     * @Route("/blog/createProduit", name="blog_createProduit")
+     * @Route("/site/createProduit", name="blog_createProduit")
      */
     public function CreateProduit(){
-        return $this->render('blog/createProduit.html.twig');
+        return $this->render('site/createProduit.html.twig');
     }
 
 

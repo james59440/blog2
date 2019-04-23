@@ -22,12 +22,19 @@
             </li>
 
             <li class="nav-item ">
-                <a class="nav-link" href="{{ path('blog') }}">Articles </a>
+                <a class="nav-link" href="{{ path('site') }}">Articles </a>
             </li>
 
+            {% if is_granted('ROLE_ADMIN') %}
             <li class="nav-item">
                 <a class="nav-link" href="{{ path('blog_create') }}">Ajouter un Article</a>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ path('blog_createProduit') }}">Ajouter un produit</a>
+            </li>
+            {% endif %}
+
 
             <li class="nav-item">
                 <a class="nav-link" href="{{ path('blog_event') }}">Calendrier</a>
@@ -35,10 +42,6 @@
 
             <li class="nav-item">
                 <a class="nav-link" href="{{ path('blog_produits') }}">Produits</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="{{ path('blog_createProduit') }}">Ajouter un produit</a>
             </li>
 
             {% if not app.user %}
