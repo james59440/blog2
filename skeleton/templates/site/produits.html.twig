@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Liste des produits{% endblock %}
+
+{% block body %}
+    <section class="produits">
+
+        {% for produit in produits %}
+            <article>
+                <h2>{{ produit.title }} </h2>
+
+                <div class="metadata">écrit le {{ produit.createdAt | date('d/m/Y') }} a {{ produit.createdAt | date('H:i') }}</div>
+
+                <div class="content">
+
+                    <img src= "{{ produit.image }}" alt="">
+                    {{ produit.content | raw }}
+                    <a href="{{ path('produits_show', { 'id' : produit.id }) }}" class="btn btn-primary">lire la suite</a>
+
+                </div>
+            </article>
+
+        {% endfor %}
+
+    </section>
+
+{% endblock %}
+
