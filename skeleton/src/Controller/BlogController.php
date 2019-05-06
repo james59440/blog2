@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Category;
+use App\Entity\CategoryP;
 use App\Entity\Comment;
 use App\Entity\Produit;
 use App\Form\CommentType;
@@ -109,7 +110,7 @@ class BlogController extends AbstractController
     }
 
     /**
-     * @Route("/site/new_produit" , name="site_create")
+     * @Route("/site/new_produit" , name="site_createProduit")
      */
     public function create(Produit $produit = null ,Request $request, ObjectManager $manager)
     {
@@ -121,7 +122,7 @@ class BlogController extends AbstractController
         $form = $this->createFormBuilder($produit)
             ->add('title')
             ->add('category', EntityType::class, [
-                'class' => Category::class,
+                'class' => CategoryP::class,
                 'choice_label' => 'title'
             ])
             ->add('content')
@@ -156,7 +157,7 @@ class BlogController extends AbstractController
 
 
     /**
-     * @Route("/site{id}", name="produits_show")
+     * @Route("/site/produit/{id}", name="produits_show")
      */
     public function show(Produit $produit, Request $request, ObjectManager $manager)
     {
@@ -208,29 +209,6 @@ class BlogController extends AbstractController
             'commentForm' => $form->createView()
         ]);
     }
-
-    /**
-     * @Route("/site/event", name="blog_event")
-     */
-    public function calen()
-    {
-        return $this->render('site/event.html.twig');
-    }
-
-    /**
-     * @Route("/site/produits", name="blog_produits")
-     */
-    public function produits(){
-        return $this->render('site/produits.html.twig');
-    }
-
-    /**
-     * @Route("/site/createProduit", name="blog_createProduit")
-     */
-    public function CreateProduit(){
-        return $this->render('site/createProduit.html.twig');
-    }
-
 
 
 }

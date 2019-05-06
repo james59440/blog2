@@ -30,18 +30,14 @@
                 <a class="nav-link" href="{{ path('blog_create') }}">Ajouter un Article</a>
             </li>
 
+
             <li class="nav-item">
-                <a class="nav-link" href="{{ path('blog_createProduit') }}">Ajouter un produit</a>
+                <a class="nav-link" href="{{ path('site_createProduit') }}">Ajouter un produit</a>
             </li>
 
 
-
             <li class="nav-item">
-                <a class="nav-link" href="{{ path('blog_event') }}">Calendrier</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="{{ path('blog_produits') }}">Produits</a>
+                <a class="nav-link" href="{{ path('produits_show') }}">Produits</a>
             </li>
 
             {% if not app.user %}
