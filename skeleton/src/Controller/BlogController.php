@@ -157,7 +157,7 @@ class BlogController extends AbstractController
 
 
     /**
-     * @Route("/site/produit/{id}", name="produits_show")
+     * @Route("/site/produits{id}", name="produits_show")
      */
     public function show(Produit $produit, Request $request, ObjectManager $manager)
     {
