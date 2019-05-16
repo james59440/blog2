@@ -157,7 +157,7 @@ class BlogController extends AbstractController
 
 
     /**
-     * @Route("/site/produits{id}", name="produits_show")
+     * @Route("/produits{id}", name="produits_show")
      */
     public function show(Produit $produit, Request $request, ObjectManager $manager)
     {
@@ -168,7 +168,7 @@ class BlogController extends AbstractController
 
         if($form->isSubmitted() && $form->isValid()){
             $comment->setCreatedAt(new \DateTime())
-                ->setArticle($produit);
+                ->setProduit($produit);
 
             $manager->persist($comment);
             $manager->flush();
