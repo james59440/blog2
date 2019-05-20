@@ -8,6 +8,7 @@ use App\Entity\Comment;
 use App\Entity\Produit;
 use App\Form\CommentType;
 use Doctrine\Common\Persistence\ObjectManager;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
@@ -208,6 +209,23 @@ class BlogController extends AbstractController
             'article' => $article,
             'commentForm' => $form->createView()
         ]);
+    }
+
+
+    /**
+     * @Route("/site/articles/delete/{id}", name="site_delete")
+     * @Method({"DELETE"})
+     * @param Request $request
+     * @param $id
+     */
+    public function delete(request $request, $id){
+
+        $articles= $this->getDoctrine()->getRepository
+        (Article::class)->find($id);
+
+        $manager= $this->getDoctrine()->getManager();
+        $manager->remove($articles);
+        $manager->flush();
     }
 
 

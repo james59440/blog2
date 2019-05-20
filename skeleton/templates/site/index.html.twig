@@ -9,6 +9,10 @@
             <article>
                 <h2>{{ article.title }} </h2>
 
+                {% if is_granted('ROLE_ADMIN') %}
+                <a href="#" class="btn btn-danger delete-article" data-id="{{ article.id }}">Supprimer</a>
+                {% endif %}
+
                 <div class="metadata">écrit le {{ article.createdAt | date('d/m/Y') }} a {{ article.createdAt | date('H:i') }}</div>
 
                 <div class="content">
@@ -24,5 +28,9 @@
 
     </section>
 
+{% endblock %}
+
+{% block javascripts %}
+    <script src="\skeleton\public\js\delete.js"></script>
 {% endblock %}
 
