@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <title>{% block title %}Welcome!{% endblock %}</title>
     <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="{{ asset('js/caroussel.js') }}"></script>
-    <script src="{{ asset('CSS/caroussel.css') }}"></script>
-    {% block stylesheets %}{% endblock %}
+    {% block stylesheets %}<link rel="stylesheet" href="\CSS\caroussel.css">{% endblock %}
 </head>
 <body>
 
@@ -29,14 +30,18 @@
             </li>
 
 
+            {% if is_granted('ROLE_ADMIN') %}
             <li class="nav-item">
                 <a class="nav-link" href="{{ path('blog_create') }}">Ajouter un Article</a>
             </li>
+            {% endif %}
 
 
+            {% if is_granted('ROLE_ADMIN') %}
             <li class="nav-item">
                 <a class="nav-link" href="{{ path('site_createProduit') }}">Ajouter un produit</a>
             </li>
+            {% endif %}
 
 
             <li class="nav-item">
@@ -69,5 +74,6 @@
 
 
 {% block javascripts %}{% endblock %}
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

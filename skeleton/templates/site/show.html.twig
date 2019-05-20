@@ -36,6 +36,8 @@
         {{ form_row(commentForm.author, {'attr' : {'placeholder': "Votre nom"}}) }}
         {{ form_row(commentForm.content, {'attr' : {'placeholder': "Votre commentaire"}}) }}
 
+
+
         <button type="submit" class="btn btn-primary">Commenter !</button>
         {{ form_end(commentForm) }}
 
@@ -44,6 +46,7 @@
             <a href="{{ path('security_login') }}" class="btn btn-primary">Connexion</a>
 
         {% endif %}
+
 
     </section>
 
