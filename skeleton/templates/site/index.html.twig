@@ -13,15 +13,19 @@
                 <a href="#" class="btn btn-danger delete-article" data-id="{{ article.id }}">Supprimer</a>
                 {% endif %}
 
-                <div class="metadata">écrit le {{ article.createdAt | date('d/m/Y') }} a {{ article.createdAt | date('H:i') }}</div>
+                <div class="metadata">écrit le {{ article.createdAt | date('d/m/Y') }} a {{ article.createdAt | date('H:i') }}dans la catégorie {{ article.category.title }}</div>
 
                 <div class="content">
 
                     <img src= "{{ article.image }}" alt="">
-                    {{ article.content | raw }}
-                    <a href="{{ path('blog_show', { 'id' : article.id }) }}" class="btn btn-primary">lire la suite</a>
 
                 </div>
+
+                <div class="content">
+                {{ article.content | raw }}
+                <a href="{{ path('blog_show', { 'id' : article.id }) }}" class="btn btn-primary">lire la suite</a>
+                </div>
+
             </article>
 
         {% endfor %}
