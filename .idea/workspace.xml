@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf86241d-5c64-45e7-81c9-5b60dd3c2db5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/skeleton/public/maquettes/articles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/public/maquettes/connexion_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/public/maquettes/cration_dun_article.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/public/maquettes/inscription.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/public/maquettes/page_accueil_pour_admin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/public/maquettes/page_accueil_pour_utilisateur_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton/public/maquettes/voir_la_suite_.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/templates/site/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/templates/site/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/templates/site/produits.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/templates/site/produits.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/templates/site/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/templates/site/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton/templates/site/show2.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton/templates/site/show2.html.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/skeleton/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/skeleton/vendor/doctrine/annotations/" />
@@ -113,59 +102,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
+            <state relative-caret-position="671">
               <caret line="226" column="25" selection-start-line="226" selection-start-column="25" selection-end-line="226" selection-end-column="25" />
               <folding>
                 <element signature="e#34#58#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton/templates/site/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton/templates/site/show.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton/templates/site/show2.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="7" selection-start-column="118" selection-end-line="7" selection-end-column="164" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skeleton/templates/site/produits.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton/templates/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -360,6 +304,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\charl\PhpstormProjects\site_anais\skeleton\public\maquettes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrateur\PhpstormProjects\blog2\skeleton\public\diagramme" />
     </key>
@@ -396,7 +343,7 @@
       <workItem from="1557127737312" duration="8137000" />
       <workItem from="1557991211033" duration="4976000" />
       <workItem from="1558358241643" duration="9931000" />
-      <workItem from="1558453979322" duration="4532000" />
+      <workItem from="1558453979322" duration="5174000" />
     </task>
     <task id="LOCAL-00001" summary="connect/deco">
       <created>1554726994392</created>
@@ -475,14 +422,22 @@
       <option name="project" value="LOCAL" />
       <updated>1558372038336</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="derniere modifs">
+      <created>1558458966892</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558458966892</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73835000" />
+    <option name="totallyTimeSpent" value="74477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -521,7 +476,8 @@
     <MESSAGE value="modifs routes" />
     <MESSAGE value="modifs admin" />
     <MESSAGE value="delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete" />
+    <MESSAGE value="derniere modifs" />
+    <option name="LAST_COMMIT_MESSAGE" value="derniere modifs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/skeleton/src/Migrations/Version20190408002007.php">
@@ -797,16 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="226" column="25" selection-start-line="226" selection-start-column="25" selection-end-line="226" selection-end-column="25" />
-          <folding>
-            <element signature="e#34#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -828,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton/templates/site/show2.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="7" selection-start-column="118" selection-end-line="7" selection-end-column="164" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton/templates/site/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -846,6 +785,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/templates/site/show2.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="7" selection-start-column="118" selection-end-line="7" selection-end-column="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton/src/Controller/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="226" column="25" selection-start-line="226" selection-start-column="25" selection-end-line="226" selection-end-column="25" />
+          <folding>
+            <element signature="e#34#58#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
